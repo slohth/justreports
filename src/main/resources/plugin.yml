@@ -1,0 +1,5 @@
+main: dev.slohth.justreports.plugin.JustReportsPlugin
+name: JustReports
+version: "dev-1.0"
+author: "Brandon @ MCM"
+api-version: 1.16

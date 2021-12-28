@@ -1,0 +1,11 @@
+report-no-permission: "&c☞ You do not have permission to report others"
+report-self-error: "&c☞ You cannot report yourself"
+report-invalid-usage: "&c☞ /report [player] [reason] [details]"
+report-invalid-reason: "&c☞ Please provide a valid reason for your report"
+report-invalid-player: "&c☞ Invalid player! Please check for any misspellings"
+report-success: "&a☞ Thanks for your report! It will be reviewed as soon as possible"
+
+report-status:
+  new: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzQ3MjM3NDM3ZWVmNjM5NDQxYjkyYjIxN2VmZGM4YTcyNTE0YTk1NjdjNmI2YjgxYjU1M2Y0ZWY0YWQxY2FlIn19fQ=="
+  assigned: "%player_head%"
+  claimed: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvMzUxMTM3ZTExNDQzYThmYmIwNWZjZDNjY2MxYWY5YmQyMzAzOTE4ZjM1NDQ4MTg1ZTNlZDk2ZWYxODRkYSJ9fX0="

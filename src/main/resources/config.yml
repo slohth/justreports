@@ -1,0 +1,31 @@
+## All the groups that reports can be assigned to
+## The permission node for each group will be "reports.group"
+## For example, "reports.admin" means they are in the admin group
+groups:
+  admin: "&cManagement"
+  mod: "&2Moderation"
+  all: "&aAll"
+
+## Every available reason to report a player, autocompletes in command
+## You need to specify whether it is a CHAT or a GAMEPLAY offence
+## It will default to CHAT
+reasons:
+  hacking: GAMEPLAY
+  exploit: GAMEPLAY
+  harassment: GAMEPLAY
+  offensive: CHAT
+  spamming: CHAT
+  advertising: CHAT
+  other: GAMEPLAY
+
+## These types of reports will be assigned to these groups by default
+## If you don't want them separated, set them to the same group
+default-report-groups:
+  GAMEPLAY: mod
+  CHAT: all
+
+## Reasons for report rejection
+rejected-reasons:
+  evidence: "Insufficient evidence was provided"
+  severity: "Not enough severity to issue punishment"
+  false: "False report"
